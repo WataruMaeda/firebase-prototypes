@@ -2,7 +2,7 @@
   "hosting": {
     "public": "public",
     "rewrite": [{
-      "source": "/timestamp",
+      "source": "**",
       "functions": "app"
     }],
     "ignore": [
