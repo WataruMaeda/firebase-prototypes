@@ -1,0 +1,89 @@
+
+/* Custom Fonts */
+
+@font-face {
+	font-family: 'Arvo-Regular';
+	src: url(../assets/fonts/Arvo-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Arvo-Bold';
+	src: url(../assets/fonts/Arvo-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Arvo-Italic';
+	src: url(../assets/fonts/Arvo-Italic.ttf);
+}
+
+@font-face {
+	font-family: 'Arvo-BoldItalic';
+	src: url(../assets/fonts/Arvo-BoldItalic.ttf);
+}
+
+/* Colors */
+
+:root {
+  --color-primary: #03bff3;
+  --color-blue-light: #03bff3;
+  --color-blue-reguler: #03adef;
+  --color-gray-light: #e7e6eb;
+  --color-gray-dark: #2d3e50;
+}
+
+/* Custom Tags */
+
+a {
+  text-decoration: none;
+}
+
+p {
+	font-family: 'Arvo-Regular';
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Arvo-Bold';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Arvo-Regular", "Roboto", "Oxygen";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Arvo-Regular",
+    monospace;
+}
+
+button {
+  font-family: 'Arvo-Regular';
+}
+
+input::placeholder {
+  color: #b5b5b5;
+}
+
+input[type="text"] {
+  font-family: 'Arvo-Regular';
+  font-size: 16px;
+}
+
+label {
+  font-family: 'Arvo-Regular';
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Arvo-Regular';
+}
+::-moz-placeholder { /* Firefox 19+ */
+ font-family: 'Arvo-Regular';
+}
+:-ms-input-placeholder { /* IE 10+ */
+ font-family: 'Arvo-Regular';
+}
+:-moz-placeholder { /* Firefox 18- */
+ font-family: 'Arvo-Regular';
+}
