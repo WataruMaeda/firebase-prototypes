@@ -1,0 +1,28 @@
+[debug] [2019-04-10T17:03:29.890Z] ----------------------------------------------------------------------
+[debug] [2019-04-10T17:03:29.894Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions --only functions
+[debug] [2019-04-10T17:03:29.894Z] CLI Version:   6.5.0
+[debug] [2019-04-10T17:03:29.894Z] Platform:      darwin
+[debug] [2019-04-10T17:03:29.894Z] Node Version:  v10.13.0
+[debug] [2019-04-10T17:03:29.895Z] Time:          Wed Apr 10 2019 10:03:29 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-10T17:03:29.896Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-10T17:03:29.910Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-10T17:03:29.910Z] > authorizing via signed-in user
+[debug] [2019-04-10T17:03:29.910Z] [iam] checking project react-firebase-boilerpla-ce757 for permissions ["firebase.projects.get"]
+[debug] [2019-04-10T17:03:29.913Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-firebase-boilerpla-ce757:testIamPermissions  
+
+[debug] [2019-04-10T17:03:30.623Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-10T17:03:30.625Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-firebase-boilerpla-ce757  
+ 
+[debug] [2019-04-10T17:03:30.823Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mac/Documents/me/Web/firebase-prototypes/react-firebase-boilerplate'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-10T17:03:31.527Z] Fetching environment
+[debug] [2019-04-10T17:03:31.532Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/698838279601:getServerAppConfig  
+ 
+[debug] [2019-04-10T17:03:31.692Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-10T17:03:31.693Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-10T17:03:33.271Z] Parsing function triggers
+[info] ✔  functions: app: http://localhost:5000/react-firebase-boilerpla-ce757/us-central1/app
