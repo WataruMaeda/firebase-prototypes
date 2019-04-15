@@ -30,14 +30,8 @@ export default class App extends Component {
           <p>
             Edit <code>src/Home.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <br />
+          <button className="btn btn-info">Send Email</button>
         </header>
       </div>
     );
